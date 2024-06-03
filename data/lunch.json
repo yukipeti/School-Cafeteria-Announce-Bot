@@ -1,0 +1,51 @@
+{
+    "Aset": {
+        "Monday": "None",
+        "Tuesday": "¥450",
+        "Wednesday": "¥450",
+        "Thursday": "¥450",
+        "Friday": "¥450"
+    },
+    "Bset": {
+        "Monday": "None",
+        "Tuesday": "¥450",
+        "Wednesday": "¥450",
+        "Thursday": "¥450",
+        "Friday": "¥450"
+    },
+    "curry": {
+        "Monday": "None",
+        "Tuesday": "None",
+        "Wednesday": "None",
+        "Thursday": "None",
+        "Friday": "None"
+    },
+    "dailySpecialUdonSoba": {
+        "Monday": "None",
+        "Tuesday": "¥350",
+        "Wednesday": "None",
+        "Thursday": "¥350",
+        "Friday": "None"
+    },
+    "UdonSoba": {
+        "Monday": "None",
+        "Tuesday": "None",
+        "Wednesday": "None",
+        "Thursday": "None",
+        "Friday": "None"
+    },
+    "dailySpecialRamenPasta": {
+        "Monday": "None",
+        "Tuesday": "None",
+        "Wednesday": "¥350",
+        "Thursday": "None",
+        "Friday": "¥350"
+    },
+    "ramenPasta": {
+        "Monday": "None",
+        "Tuesday": "None",
+        "Wednesday": "None",
+        "Thursday": "None",
+        "Friday": "None"
+    }
+}
