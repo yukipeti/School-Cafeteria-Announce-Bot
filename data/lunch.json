@@ -1,51 +1,51 @@
 {
     "Aset": {
-        "Monday": "None",
-        "Tuesday": "¥450",
-        "Wednesday": "¥450",
-        "Thursday": "¥450",
-        "Friday": "¥450"
+        "Monday": "メンチカツデミソース",
+        "Tuesday": "野菜炒め",
+        "Wednesday": "チキンのカレーマヨ焼き",
+        "Thursday": "照りマヨハンバーグ",
+        "Friday": "チキンソテー バジルソース"
     },
     "Bset": {
-        "Monday": "None",
-        "Tuesday": "¥450",
-        "Wednesday": "¥450",
-        "Thursday": "¥450",
-        "Friday": "¥450"
+        "Monday": "エビフライカレー",
+        "Tuesday": "牛丼",
+        "Wednesday": "イカ天チリソース",
+        "Thursday": "魚の唐揚げ梅おろしかけ",
+        "Friday": "サーモンフライ"
     },
     "curry": {
         "Monday": "None",
-        "Tuesday": "None",
-        "Wednesday": "None",
-        "Thursday": "None",
-        "Friday": "None"
+        "Tuesday": "チキンカレー",
+        "Wednesday": "チキンカレー",
+        "Thursday": "チキンカレー",
+        "Friday": "チキンカレー"
     },
     "dailySpecialUdonSoba": {
         "Monday": "None",
-        "Tuesday": "¥350",
+        "Tuesday": "ピリ辛チゲうどん",
         "Wednesday": "None",
-        "Thursday": "¥350",
+        "Thursday": "なめこおろしうどん",
         "Friday": "None"
     },
     "UdonSoba": {
-        "Monday": "None",
+        "Monday": "かけうどん",
         "Tuesday": "None",
-        "Wednesday": "None",
+        "Wednesday": "かけうどん",
         "Thursday": "None",
-        "Friday": "None"
+        "Friday": "かけうどん"
     },
     "dailySpecialRamenPasta": {
-        "Monday": "None",
+        "Monday": "冷製ジェノベーゼパスタ",
         "Tuesday": "None",
-        "Wednesday": "¥350",
+        "Wednesday": "勝浦タンタンメン",
         "Thursday": "None",
-        "Friday": "¥350"
+        "Friday": "鶏白湯ラーメン"
     },
     "ramenPasta": {
         "Monday": "None",
-        "Tuesday": "None",
+        "Tuesday": "醤油ラーメン",
         "Wednesday": "None",
-        "Thursday": "None",
+        "Thursday": "味噌ラーメン",
         "Friday": "None"
     }
 }

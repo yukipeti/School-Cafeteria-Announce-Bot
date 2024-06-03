@@ -5,6 +5,7 @@ import pandas as pd
 menus = ["Aset", "Bset", "curry", "dailySpecialUdonSoba", "UdonSoba", "dailySpecialRamenPasta", "ramenPasta"]
 week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 
+"""
 with open("../data/lunch.json", "r") as f:
     lunch = json.load(f)
 
@@ -45,3 +46,7 @@ for i in week:
 
 with open("../data/lunch.json", "w") as f:
     json.dump(lunch, f,indent = 4 , ensure_ascii=False)
+
+休日がある場合適応されないため別の実装にする
+案1: columnにある`Mon`等であーであーでしてでー
+"""
