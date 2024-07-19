@@ -1,51 +1,51 @@
 {
     "Aset": {
-        "Monday": "None",
-        "Tuesday": "¥450",
-        "Wednesday": "¥450",
-        "Thursday": "¥450",
-        "Friday": "¥450"
+        "Mon": "None",
+        "Tue": "野菜炒め",
+        "Wed": "棒棒鶏（バンバンジー）",
+        "Thu": "照りマヨハンバーグ",
+        "Fri": "チキンソテー バジルソース"
     },
     "Bset": {
-        "Monday": "None",
-        "Tuesday": "¥450",
-        "Wednesday": "¥450",
-        "Thursday": "¥450",
-        "Friday": "¥450"
+        "Mon": "None",
+        "Tue": "牛丼",
+        "Wed": "イカ天チリソース",
+        "Thu": "五目旨煮丼",
+        "Fri": "サーモンフライ"
     },
     "curry": {
-        "Monday": "None",
-        "Tuesday": "None",
-        "Wednesday": "None",
-        "Thursday": "None",
-        "Friday": "None"
+        "Mon": "None",
+        "Tue": "チキンカレー",
+        "Wed": "チキンカレー",
+        "Thu": "チキンカレー",
+        "Fri": "チキンカレー"
     },
     "dailySpecialUdonSoba": {
-        "Monday": "None",
-        "Tuesday": "¥350",
-        "Wednesday": "None",
-        "Thursday": "¥350",
-        "Friday": "None"
+        "Mon": "None",
+        "Tue": "ピリ辛チゲうどん",
+        "Wed": "None",
+        "Thu": "冷やしネバネバうどん",
+        "Fri": "None"
     },
     "UdonSoba": {
-        "Monday": "None",
-        "Tuesday": "None",
-        "Wednesday": "None",
-        "Thursday": "None",
-        "Friday": "None"
+        "Mon": "None",
+        "Tue": "None",
+        "Wed": "かけうどん",
+        "Thu": "None",
+        "Fri": "かけうどん"
     },
     "dailySpecialRamenPasta": {
-        "Monday": "None",
-        "Tuesday": "None",
-        "Wednesday": "¥350",
-        "Thursday": "None",
-        "Friday": "¥350"
+        "Mon": "None",
+        "Tue": "None",
+        "Wed": "勝浦タンタンメン",
+        "Thu": "None",
+        "Fri": "鶏白湯ラーメン"
     },
     "ramenPasta": {
-        "Monday": "None",
-        "Tuesday": "None",
-        "Wednesday": "None",
-        "Thursday": "None",
-        "Friday": "None"
+        "Mon": "None",
+        "Tue": "醤油ラーメン",
+        "Wed": "None",
+        "Thu": "味噌ラーメン",
+        "Fri": "None"
     }
 }
