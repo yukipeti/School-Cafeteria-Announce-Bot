@@ -3,7 +3,7 @@ import string
 import json
 import pandas as pd
 
-menus = ["Aset", "Bset", "curry", "dailySpecialUdonSoba", "UdonSoba", "dailySpecialRamenPasta", "ramenPasta"]
+menus = ["Aset", "Bset", "curry", "dailySpecialUdonSoba", "UdonSoba", "dailySpecialRamenPasta", "ramen"]
 idenMenus = ["Aセット", "Bセット", "カレー", "日替り", "かけ", "日替り", "ラーメン"]
 week = ["Mon", "Tue", "Wed", "Thu", "Fri"]
 weekIndex = []
@@ -21,7 +21,7 @@ for i in week:
         data: string = df.iloc[row][col]
         if pd.isna(data):
             data = "None"
-        
+
         if i in data:
             weekIndex.append(col)
             break
@@ -47,7 +47,7 @@ for i in idenMenus:
 for i in range(len(menus)):
     for j in range(len(week)): 
         if pd.isna(df.iloc[menusIndex[i]][weekIndex[j]]):
-            (lunch[menus[i]][week[j]]) = "None"
+            (lunch[menus[i]][week[j]]) = "今日はありません"
         else:
             (lunch[menus[i]][week[j]]) = df.iloc[menusIndex[i]][weekIndex[j]]
         
