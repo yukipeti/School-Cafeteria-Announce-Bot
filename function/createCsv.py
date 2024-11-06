@@ -1,7 +1,7 @@
 import pdfplumber
 import pandas as pd
 
-pdf_path = "../data/gakusyoku3.pdf" 
+pdf_path = "../data/1104.pdf" 
 csv_path = "../data/output.csv"
 
 # PDFから表を抽出

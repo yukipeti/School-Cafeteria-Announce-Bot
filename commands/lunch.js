@@ -6,7 +6,7 @@ const today = new Date().getDay();
 const dispMenu = ["Aセット", "Bセット", "カレー", "日替わりうどん・そば", "うどん・そば", "日替わりラーメン・パスタ", "ラーメン"];
 const menu = ["Aset", "Bset", "curry", "dailySpecialUdonSoba", "UdonSoba", "dailySpecialRamenPasta", "ramen"];
 
-
+console.log(today);
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName("today")
@@ -25,7 +25,7 @@ module.exports = {
                 dispMenu.forEach((item, index) => {
                     embed.addFields({
                         name: item,
-                        value: lunch[menu[index]][days[today]],
+                        value: lunch[menu[index]][days[today-1]],
                         inline: false
                     });
                 });
