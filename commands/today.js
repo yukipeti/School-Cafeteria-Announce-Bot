@@ -6,7 +6,10 @@ const today = new Date().getDay();
 const dispMenu = ["Aセット", "Bセット", "カレー", "日替わりうどん・そば", "うどん・そば", "日替わりラーメン・パスタ", "ラーメン"];
 const menu = ["Aset", "Bset", "curry", "dailySpecialUdonSoba", "UdonSoba", "dailySpecialRamenPasta", "ramen"];
 
+<<<<<<< HEAD:commands/lunch.js
 console.log(today);
+=======
+>>>>>>> refs/remotes/origin/main:commands/today.js
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName("today")
@@ -16,12 +19,11 @@ module.exports = {
                 await interaction.reply("今日は土日です。学食はありません");
                 return;
             }
-
             const embed = new EmbedBuilder()
                 .setTitle("今日の学食")
-                .setDescription("今日の学食は以下の通りです")
+                .setDescription("本日の学食は以下の通りです")
                 .setFooter({text: "※内容は変更される可能性があります"})
-                .setTimestamp();
+                .setTimestamp()
                 dispMenu.forEach((item, index) => {
                     embed.addFields({
                         name: item,
