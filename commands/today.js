@@ -6,10 +6,6 @@ const today = new Date().getDay();
 const dispMenu = ["Aセット", "Bセット", "カレー", "日替わりうどん・そば", "うどん・そば", "日替わりラーメン・パスタ", "ラーメン"];
 const menu = ["Aset", "Bset", "curry", "dailySpecialUdonSoba", "UdonSoba", "dailySpecialRamenPasta", "ramen"];
 
-<<<<<<< HEAD:commands/lunch.js
-console.log(today);
-=======
->>>>>>> refs/remotes/origin/main:commands/today.js
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName("today")
