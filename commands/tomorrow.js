@@ -9,10 +9,11 @@ const menu = ["Aset", "Bset", "curry", "dailySpecialUdonSoba", "UdonSoba", "dail
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName("tomorrow")
-		.setDescription("明日の学食を表示します"),
+		.setDescription("明日の学食を表示します")
+        .setDMPermission(false),
         async execute(interaction) {
             if ((today+1) === 0 || (today+1) === 6) {
-                await interaction.reply("明日は土日です。学食はありません");
+                await interaction.reply("明日は休日です。学食はありません");
                 return;
             }
             const embed = new EmbedBuilder()

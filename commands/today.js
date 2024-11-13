@@ -6,17 +6,14 @@ const today = new Date().getDay();
 const dispMenu = ["Aセット", "Bセット", "カレー", "日替わりうどん・そば", "うどん・そば", "日替わりラーメン・パスタ", "ラーメン"];
 const menu = ["Aset", "Bset", "curry", "dailySpecialUdonSoba", "UdonSoba", "dailySpecialRamenPasta", "ramen"];
 
-<<<<<<< HEAD:commands/lunch.js
-console.log(today);
-=======
->>>>>>> refs/remotes/origin/main:commands/today.js
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName("today")
-		.setDescription("今日の学食を表示します"),
+		.setDescription("今日の学食を表示します")
+        .setDMPermission(false),
         async execute(interaction) {
             if (today === 0 || today === 6) {
-                await interaction.reply("今日は土日です。学食はありません");
+                await interaction.reply("今日は休日です。学食はありません");
                 return;
             }
             const embed = new EmbedBuilder()
