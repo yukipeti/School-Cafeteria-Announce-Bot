@@ -16,7 +16,7 @@ module.exports = {
         async execute(interaction) {
             await interaction.deferReply({ephemeral: true});
             await interaction.editReply("20:00に明日の学食のメニューを送信します");
-            cron.schedule("* * * * * ", async() => {
+            cron.schedule("0 20 * * * ", async() => {
                 const today = new Date().getDay();
                 const embed = new EmbedBuilder()
                     .setTitle("明日の学食")
